@@ -1,13 +1,27 @@
 @import "~bootstrap/scss/bootstrap.scss";
 
-/* 
+body{
+    background: rgb(20, 20, 20); 
+    color :white;
+   
+    } 
+.songTitle{
+ box-shadow: 2px 3px 5px lightgray;
+    border: 1px solid gray;
+    text-align: left;
+}
+ .songTitle:hover{
+     background: lightgray;
+ }
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+ .player-button{
+     background: darkgray;
+     border-radius: 15px;
+     width: 100px;
+     box-shadow: 2px 3px 5px lightgray;
+     border: 1px solid black;
+     text-align: center;
+     margin-left: auto;
+     margin-right: auto;
 
-*/
+ }
